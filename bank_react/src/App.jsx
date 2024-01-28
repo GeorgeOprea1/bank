@@ -2,13 +2,13 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Billing from "./components/Billing";
 import Business from "./components/Business";
-import Button from "./components/Button";
+
 import CardDeal from "./components/CardDeal";
 import Clients from "./components/Clients";
 import Cta from "./components/CTA";
-import FeedbackCard from "./components/FeedbackCard";
+
 import Footer from "./components/Footer";
-import GetStarted from "./components/GetStarted";
+
 import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
 
