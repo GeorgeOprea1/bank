@@ -2,7 +2,6 @@ import {
   people01,
   people02,
   people03,
-  facebook,
   instagram,
   linkedin,
   twitter,
@@ -13,6 +12,7 @@ import {
   send,
   shield,
   star,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -108,22 +108,19 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
+        id: 1,
         name: "Content",
         link: "https://www.hoobank.com/content/",
       },
       {
+        id: 2,
         name: "How it Works",
         link: "https://www.hoobank.com/how-it-works/",
       },
+      { id: 3, name: "Create", link: "https://www.hoobank.com/create/" },
+      { id: 4, name: "Explore", link: "https://www.hoobank.com/explore/" },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
+        id: 5,
         name: "Terms & Services",
         link: "https://www.hoobank.com/terms-and-services/",
       },
@@ -172,23 +169,23 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    icon: github,
+    link: "https://github.com/GeorgeOprea1/bank/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: instagram,
+    link: "https://www.instagram.com/georgeoprea_/",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: twitter,
+    link: "https://www.twitter.com/",
   },
 ];
 
